@@ -4,6 +4,7 @@ import { SiMongodb} from "react-icons/si"
 import { DiRedis } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa"
 import { motion } from "framer-motion"
+import { useTranslation } from "../contexts/TranslationContext"
 
 const iconVariants = (duration) => ({
   initial: { y:-10 },
@@ -19,13 +20,15 @@ const iconVariants = (duration) => ({
 });
 
 const Technologies = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='border-b border-neutral-800 pb-24'>
       <motion.h2 
       whileInView={{ opacity: 1, x: 0, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-      className='my-20 text-center text-4xl'>Technologies</motion.h2>
+      className='my-20 text-center text-4xl'>{t('technologies.title')}</motion.h2>
         <motion.div 
         whileInView={{ opacity: 1, x: 0}}
         initial={{ opacity: 0, x: -100 }}

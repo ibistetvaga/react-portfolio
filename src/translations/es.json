@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "name": "Brian Ramos",
+    "role": "Desarrollador Full Stack",
+    "description": "Soy un desarrollador full stack apasionado con talento para crear aplicaciones web robustas y escalables. Con 5 años de experiencia práctica, he perfeccionado mis habilidades en tecnologías front-end como React y Next.js, así como tecnologías back-end como Node.js, MySQL, PostgreSQL y MongoDB. Mi objetivo es aprovechar mi experiencia para crear soluciones innovadoras que impulsen el crecimiento empresarial y brinden experiencias excepcionales al usuario."
+  },
+  "nav": {
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "technologies": "Tecnologías",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Acerca de",
+    "titleSuffix": "Mí",
+    "description": "Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. Con 5 años de experiencia profesional, he trabajado con una variedad de tecnologías, incluyendo React, Next.js, Node.js, MySQL, PostgreSQL y MongoDB. Mi viaje en el desarrollo web comenzó con una profunda curiosidad por cómo funcionan las cosas, y ha evolucionado hacia una carrera donde continuamente me esfuerzo por aprender y adaptarme a nuevos desafíos. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para entregar soluciones de alta calidad. Fuera de la programación, disfruto mantenerme activo, explorar nuevas tecnologías y contribuir a proyectos de código abierto."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "roles": {
+      "seniorFullStack": "Desarrollador Full Stack Senior",
+      "frontend": "Desarrollador Frontend",
+      "fullStack": "Desarrollador Full Stack",
+      "softwareEngineer": "Ingeniero de Software"
+    },
+    "descriptions": {
+      "google": "Lideré un equipo en el desarrollo y mantenimiento de aplicaciones web usando JavaScript, React.js y Node.js. Implementé APIs RESTful e integré con bases de datos MongoDB. Colaboré con stakeholders para definir requisitos de proyecto y cronogramas.",
+      "adobe": "Diseñé y desarrollé interfaces de usuario para aplicaciones web usando Next.js y React. Trabajé estrechamente con desarrolladores backend para integrar componentes frontend con APIs de Node.js. Implementé diseños responsivos y optimicé el rendimiento del frontend.",
+      "facebook": "Desarrollé y mantuve aplicaciones web usando JavaScript, React.js y Node.js. Diseñé e implementé APIs RESTful para comunicación de datos. Colaboré con equipos multifuncionales para entregar productos de software de alta calidad en tiempo y forma.",
+      "paypal": "Contribuí al desarrollo de aplicaciones web usando JavaScript, React.js y Node.js. Gestioné bases de datos e implementé soluciones de almacenamiento de datos usando MongoDB. Trabajé estrechamente con gerentes de producto para priorizar características y mejoras."
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": {
+      "ecommerce": {
+        "title": "Sitio Web de Comercio Electrónico",
+        "description": "Un sitio web de comercio electrónico completamente funcional con características como listado de productos, carrito de compras y autenticación de usuarios."
+      },
+      "taskManagement": {
+        "title": "Aplicación de Gestión de Tareas",
+        "description": "Una aplicación para gestionar tareas y proyectos, con características como creación de tareas, asignación y seguimiento de progreso."
+      },
+      "portfolio": {
+        "title": "Sitio Web de Portafolio",
+        "description": "Un sitio web de portafolio personal que muestra proyectos, habilidades e información de contacto."
+      },
+      "blogging": {
+        "title": "Plataforma de Blogs",
+        "description": "Una plataforma para crear y publicar entradas de blog, con características como edición de texto enriquecido, comentarios y perfiles de usuario."
+      }
+    }
+  },
+  "technologies": {
+    "title": "Tecnologías"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "address": "767 Fifth Avenue, New York, NY 10153",
+    "phone": "+12 4555 666 00",
+    "email": "me@example.com"
+  }
+}
